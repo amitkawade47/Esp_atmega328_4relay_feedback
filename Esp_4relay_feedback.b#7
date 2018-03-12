@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23,16 +23,16 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -156,17 +156,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="104" y1="2" x2="234" y2="2" width="0" layer="20"/>
-<wire x1="234" y1="2" x2="234" y2="97" width="0" layer="20"/>
-<wire x1="234" y1="97" x2="104" y2="97" width="0" layer="20"/>
-<wire x1="104" y1="97" x2="104" y2="2" width="0" layer="20"/>
+<wire x1="96" y1="0" x2="246" y2="0" width="0" layer="20"/>
+<wire x1="246" y1="0" x2="246" y2="100" width="0" layer="20"/>
+<wire x1="246" y1="100" x2="96" y2="100" width="0" layer="20"/>
+<wire x1="96" y1="100" x2="96" y2="0" width="0" layer="20"/>
 <circle x="108" y="93" radius="2" width="0.254" layer="20"/>
 <circle x="230" y="93" radius="2" width="0.254" layer="20"/>
 <circle x="230" y="6" radius="2" width="0.254" layer="20"/>
 <circle x="108" y="6" radius="2" width="0.254" layer="20"/>
-<dimension x1="104" y1="2" x2="234" y2="2" x3="169" y3="-9" layer="1"/>
-<dimension x1="234" y1="2" x2="234" y2="97" x3="244" y3="49.5" layer="1"/>
-<dimension x1="125" y1="-2" x2="213" y2="-2" x3="169" y3="-2" layer="1"/>
 </plain>
 <libraries>
 <library name="esp826612q">
@@ -4376,7 +4373,21 @@ design rules under a new name.</description>
 <contactref element="U2" pad="23"/>
 </signal>
 <signal name="N$23">
-<wire x1="125" y1="-2" x2="213" y2="-2" width="0.8128" layer="1"/>
+<polygon width="0.6096" layer="16" isolate="2.54">
+<vertex x="97" y="100"/>
+<vertex x="246" y="100"/>
+<vertex x="246" y="0"/>
+<vertex x="96" y="0"/>
+<vertex x="96" y="100"/>
+</polygon>
+</signal>
+<signal name="GND1">
+<polygon width="0.6096" layer="1" isolate="2.1844">
+<vertex x="96" y="100"/>
+<vertex x="246" y="100"/>
+<vertex x="246" y="0"/>
+<vertex x="96" y="0"/>
+</polygon>
 </signal>
 </signals>
 </board>
