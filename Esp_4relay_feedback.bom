@@ -1,0 +1,26 @@
+Partlist exported from E:/Project_2018/PCB_Design/Esp_4relay_feedback/Esp_4relay_feedback.sch at 3/10/2018 12:33:51 PM
+
+Assembly variant: 
+
+Qty Value           Device          Parts                                 
+1                   10-XX           S1                                    
+3                   PINHD-1X2       JP6, JP8, JP9                         
+1                   PINHD-1X4       JP7                                   
+1                   W237-102        X7                                    
+8                   W237-103        X1, X2, X3, X4, X5, X8, X9, X10       
+8   1N4007          1N4004          D1, D2, D3, D4, D5, D6, D7, D8        
+8   1k              R-US_0207/10    R1, R5, R7, R8, R13, R14, R17, R19    
+4   10k             R-US_0207/10    R3, R4, R11, R12                      
+1   10uF            CPOL-USE2.5-6   C2                                    
+2   10uf            CPOL-USE2.5-6   C1, C5                                
+1   16MHz           CRYSTALHC49US   Q1                                    
+2   22pF            CAPPTH          C3, C6                                
+8   220k            R-US_0207/10    R2, R6, R9, R10, R15, R16, R18, R20   
+1   470uF           CPOL-USE5-8.5   C4                                    
+1   7805TV          7805TV          IC4                                   
+1   ATMEGA328P_PDIP ATMEGA328P_PDIP U2                                    
+8   BC547           BC447           Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9        
+1   ESP12Q          ESP12Q          U$1                                   
+8   G5LE            G5LE            K1, K2, K3, K4, K5, K6, K7, K8        
+1   LM1117MP-3.3    LM1117MP-3.3    IC1                                   
+8   PC817           PC817           OK1, OK2, OK3, OK4, OK5, OK6, OK7, OK8
