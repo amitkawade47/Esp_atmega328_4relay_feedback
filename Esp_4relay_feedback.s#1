@@ -19511,6 +19511,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="TO92-CBE" technology="BC547" value="2N7000"/>
 <part name="R26" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
 <part name="R27" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19534,6 +19536,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="T2" gate="G$1" x="162.56" y="20.32" rot="R90"/>
 <instance part="R26" gate="G$1" x="152.4" y="17.78" rot="R90"/>
 <instance part="R27" gate="G$1" x="172.72" y="17.78" rot="R90"/>
+<instance part="R28" gate="G$1" x="17.78" y="35.56"/>
+<instance part="R29" gate="G$1" x="17.78" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -19572,13 +19576,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="83.82" y1="35.56" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="43.18" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <label x="88.9" y="48.26" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="CH_PD"/>
-<wire x1="22.86" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="30.48" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="22.86" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="17.78" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
+<junction x="12.7" y="30.48"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="35.56" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<junction x="12.7" y="35.56"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
@@ -19733,6 +19740,18 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="22.86" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
 <label x="195.58" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CH_PD"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RESET"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

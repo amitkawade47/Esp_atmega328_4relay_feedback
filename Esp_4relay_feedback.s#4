@@ -15455,9 +15455,9 @@ type 0309, grid 2.5 mm</description>
 </classes>
 <parts>
 <part name="U$1" library="esp826612q" deviceset="ESP12Q" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0207/10"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="0207/10"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="0207/10"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
 <part name="JP6" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="IC1" library="lm1117_10" deviceset="LM1117?-*" device="MP" technology="3.3"/>
 <part name="C2" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="10uF"/>
