@@ -20439,7 +20439,7 @@ general purpose rectifier, 1 A</description>
 <instance part="OK1" gate="A" x="58.42" y="208.28" rot="MR0"/>
 <instance part="R2" gate="G$1" x="66.04" y="231.14" rot="R270"/>
 <instance part="GND2" gate="1" x="48.26" y="203.2"/>
-<instance part="X1" gate="-1" x="83.82" y="223.52" rot="R180"/>
+<instance part="X1" gate="-1" x="60.96" y="223.52" rot="R180"/>
 <instance part="X1" gate="-2" x="86.36" y="241.3" rot="R180"/>
 <instance part="X1" gate="-3" x="53.34" y="254" rot="R270"/>
 <instance part="Q2" gate="G$1" x="38.1" y="228.6"/>
@@ -20549,7 +20549,7 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="K1" gate="2" pin="S"/>
 <wire x1="53.34" y1="236.22" x2="53.34" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="223.52" x2="78.74" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="223.52" x2="55.88" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="KL"/>
 </segment>
 </net>

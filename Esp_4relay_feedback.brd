@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -26,14 +26,14 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -3849,7 +3849,7 @@ design rules under a new name.</description>
 <wire x1="130.5814" y1="56.7436" x2="118.7196" y2="56.7436" width="0.8128" layer="1"/>
 <wire x1="118.7196" y1="56.7436" x2="117.1702" y2="56.7436" width="0.8128" layer="1"/>
 <wire x1="122.3518" y1="39.9542" x2="120.9548" y2="38.5572" width="0.8128" layer="1"/>
-<wire x1="103.251" y1="55.4228" x2="105.029" y2="57.2008" width="0.8128" layer="1"/>
+<wire x1="103.7082" y1="55.9562" x2="105.029" y2="57.2008" width="0.8128" layer="1"/>
 <wire x1="105.029" y1="57.2008" x2="110.2868" y2="57.2008" width="0.8128" layer="1"/>
 <wire x1="110.2868" y1="57.2008" x2="111.5314" y2="58.4454" width="0.8128" layer="1"/>
 <wire x1="111.5314" y1="58.4454" x2="111.5314" y2="59.5884" width="0.8128" layer="1"/>
@@ -3860,8 +3860,8 @@ design rules under a new name.</description>
 <wire x1="113.3602" y1="38.5572" x2="111.5822" y2="38.5572" width="0.8128" layer="1"/>
 <wire x1="111.5822" y1="38.5572" x2="109.6518" y2="40.4876" width="0.8128" layer="1"/>
 <wire x1="109.6518" y1="40.4876" x2="105.4862" y2="40.4876" width="0.8128" layer="1"/>
-<wire x1="105.4862" y1="40.4876" x2="103.251" y2="42.7228" width="0.8128" layer="1"/>
-<wire x1="103.251" y1="42.7228" x2="103.251" y2="55.4228" width="0.8128" layer="1"/>
+<wire x1="105.4862" y1="40.4876" x2="103.7082" y2="43.2562" width="0.8128" layer="1"/>
+<wire x1="103.7082" y1="43.2562" x2="103.7082" y2="55.9562" width="0.8128" layer="1"/>
 <wire x1="113.46" y1="41.27" x2="113.46" y2="38.8384" width="0.8128" layer="1"/>
 <wire x1="113.46" y1="38.8384" x2="113.4872" y2="38.8112" width="0.8128" layer="1"/>
 <wire x1="113.4872" y1="38.8112" x2="113.4872" y2="38.6842" width="0.8128" layer="1"/>
@@ -4554,9 +4554,9 @@ design rules under a new name.</description>
 <wire x1="139.2174" y1="73.3806" x2="138.938" y2="73.3806" width="0.8128" layer="1"/>
 <wire x1="138.938" y1="73.3806" x2="118.999" y2="73.3806" width="0.8128" layer="1"/>
 <wire x1="118.999" y1="73.3806" x2="104.1908" y2="73.3806" width="0.8128" layer="1"/>
-<wire x1="104.1908" y1="73.3806" x2="101.4984" y2="70.6882" width="0.8128" layer="1"/>
-<wire x1="101.4984" y1="70.6882" x2="101.4984" y2="27.8384" width="0.8128" layer="1"/>
-<wire x1="101.4984" y1="27.8384" x2="104.1146" y2="25.2222" width="0.8128" layer="1"/>
+<wire x1="104.1908" y1="73.3806" x2="102.3874" y2="71.5264" width="0.8128" layer="1"/>
+<wire x1="102.3874" y1="71.5264" x2="102.362" y2="27.051" width="0.8128" layer="1"/>
+<wire x1="102.362" y1="27.051" x2="104.1146" y2="25.2222" width="0.8128" layer="1"/>
 <wire x1="104.1146" y1="25.2222" x2="108.204" y2="25.2222" width="0.8128" layer="1"/>
 <wire x1="108.204" y1="25.2222" x2="127.0508" y2="25.2222" width="0.8128" layer="1"/>
 <wire x1="118.969" y1="73.3506" x2="118.999" y2="73.3806" width="0.8128" layer="1"/>
@@ -5246,6 +5246,22 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$104">
 <via x="183.5404" y="15.6718" extent="1-16" drill="1" diameter="1.4224" shape="square"/>
+</signal>
+<signal name="N$105">
+<polygon width="0.4064" layer="1" isolate="1.9304">
+<vertex x="96" y="100"/>
+<vertex x="246" y="100"/>
+<vertex x="246" y="0"/>
+<vertex x="96" y="0"/>
+</polygon>
+</signal>
+<signal name="N$106">
+<polygon width="0.4064" layer="16" isolate="1.9304">
+<vertex x="96" y="100"/>
+<vertex x="246" y="100"/>
+<vertex x="246" y="0"/>
+<vertex x="96" y="0"/>
+</polygon>
 </signal>
 </signals>
 </board>
