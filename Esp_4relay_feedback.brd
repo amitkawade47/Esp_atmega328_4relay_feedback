@@ -4596,7 +4596,7 @@ design rules under a new name.</description>
 <element name="R35" library="amit_rcl" package="0207/5V" value="10k" x="208" y="59" rot="R90"/>
 <element name="R36" library="amit_rcl" package="0207/5V" value="10k" x="227" y="40" rot="R270"/>
 <element name="R37" library="amit_rcl" package="0207/5V" value="10k" x="228" y="60" rot="R90"/>
-<element name="U$2" library="amit_high_link_5W" package="AMIT_HIGH_LINK" value="AMIT_HIGH_LINK" x="185" y="21" rot="R90"/>
+<element name="U$2" library="amit_high_link_5W" package="AMIT_HIGH_LINK" value="AMIT_HIGH_LINK" x="184" y="21" rot="R90"/>
 <element name="X9" library="amit_screw_terminal_23" package="W237-102" value="" x="167" y="6">
 <attribute name="OC_NEWARK" value="70K9898" x="167" y="6" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="237-102" x="167" y="6" size="1.778" layer="27" display="off"/>
@@ -4756,12 +4756,12 @@ design rules under a new name.</description>
 <wire x1="152" y1="35" x2="152" y2="38" width="0" layer="19" extent="1-1"/>
 <wire x1="162.19" y1="41.73" x2="152" y2="38" width="0" layer="19" extent="1-1"/>
 <wire x1="169.81" y1="44.27" x2="162.19" y2="41.73" width="0" layer="19" extent="1-1"/>
-<wire x1="175.93" y1="36.48" x2="169.81" y2="44.27" width="0" layer="19" extent="1-1"/>
+<wire x1="174.93" y1="36.48" x2="169.81" y2="44.27" width="0" layer="19" extent="1-1"/>
 <wire x1="161" y1="18.27" x2="152" y2="35" width="0" layer="19" extent="1-1"/>
 <wire x1="155.81" y1="15.81" x2="161" y2="18.27" width="0" layer="19" extent="1-1"/>
 <wire x1="154.27" y1="4" x2="155.81" y2="15.81" width="0" layer="19" extent="1-1"/>
 <wire x1="148" y1="1.73" x2="154.27" y2="4" width="0" layer="19" extent="1-1"/>
-<wire x1="202.27" y1="44.81" x2="175.93" y2="36.48" width="0" layer="19" extent="1-1"/>
+<wire x1="202.27" y1="44.81" x2="174.93" y2="36.48" width="0" layer="19" extent="1-1"/>
 <wire x1="210.46" y1="41.4484" x2="202.27" y2="44.81" width="0" layer="19" extent="1-1"/>
 <wire x1="210.73" y1="55.19" x2="211.963" y2="42.9514" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4824,7 +4824,7 @@ design rules under a new name.</description>
 <wire x1="169.81" y1="39.19" x2="169.81" y2="41.73" width="0" layer="19" extent="1-1"/>
 <wire x1="168.35" y1="19.54" x2="169.81" y2="39.19" width="0" layer="19" extent="1-1"/>
 <wire x1="155.829" y1="9.9568" x2="168.35" y2="19.54" width="0" layer="19" extent="16-16"/>
-<wire x1="193.93" y1="36.48" x2="169.81" y2="39.19" width="0" layer="19" extent="1-1"/>
+<wire x1="192.93" y1="36.48" x2="169.81" y2="39.19" width="0" layer="19" extent="1-1"/>
 <wire x1="116.0526" y1="54.991" x2="158" y2="61.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
@@ -5653,7 +5653,7 @@ design rules under a new name.</description>
 <via x="111.5314" y="59.7154" extent="1-16" drill="1" diameter="1.016" shape="square"/>
 <contactref element="U$2" pad="AC1"/>
 <contactref element="X9" pad="1"/>
-<wire x1="164.5" y1="4.73" x2="181.93" y2="2.88" width="0" layer="19" extent="1-1"/>
+<wire x1="164.5" y1="4.73" x2="180.93" y2="2.88" width="0" layer="19" extent="1-1"/>
 <wire x1="111.5314" y1="59.7154" x2="164.5" y2="4.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
@@ -5699,7 +5699,7 @@ design rules under a new name.</description>
 <via x="169.2656" y="10.033" extent="1-16" drill="1" diameter="1.016" shape="square"/>
 </signal>
 <signal name="N$83">
-<via x="181.2544" y="10.0076" extent="1-16" drill="1" diameter="1.016" shape="square"/>
+<via x="167.2544" y="15.0076" extent="1-16" drill="1" diameter="1.016" shape="square"/>
 </signal>
 <signal name="N$84">
 <via x="153.9438" y="43.9382" extent="1-16" drill="1" diameter="1.016" shape="square"/>
@@ -5756,12 +5756,12 @@ design rules under a new name.</description>
 <via x="231.4448" y="40.259" extent="1-16" drill="1" diameter="1.4224" shape="square"/>
 </signal>
 <signal name="N$104">
-<via x="183.5404" y="15.6718" extent="1-16" drill="1" diameter="1.4224" shape="square"/>
+<via x="169.5404" y="19.6718" extent="1-16" drill="1" diameter="1.4224" shape="square"/>
 </signal>
 <signal name="N$66">
 <contactref element="U$2" pad="AC2"/>
 <contactref element="X9" pad="2"/>
-<wire x1="169.5" y1="4.73" x2="187.93" y2="2.88" width="0" layer="19" extent="1-1"/>
+<wire x1="169.5" y1="4.73" x2="186.93" y2="2.88" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
